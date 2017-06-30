@@ -1,0 +1,37 @@
+{
+  "name": "easy-fetch",
+  "version": "0.0.1",
+  "description": "fetch wrapper for some basical usecases",
+  "browser": "index.js",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --ignore-path .gitignore -c .eslintrc .",
+    "lint:fix": "npm run lint -- --fix",
+    "test": "npm run lint && mocha test/ --recursive",
+    "test:watch": "watch 'npm test' ./{lib,test}/"
+  },
+  "author": {
+    "name": "Daiki Arai",
+    "email": "darai0512@yahoo.co.jp"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:darai0512/easy-fetch.git#master"
+  },
+  "devDependencies": {
+    "bluebird": "^3.5.0",
+    "eslint": "^3.3.1",
+    "eslint-config-google": "^0.7.1",
+    "isomorphic-fetch": "^2.2.1",
+    "mocha": "^3.0.0",
+    "nock": "^8.0.0",
+    "node-fetch": "^1.7.1",
+    "power-assert": "^1.4.2",
+    "watch": "^0.19.2",
+    "whatwg-fetch": "^2.0.3"
+  },
+  "dependencies": {
+    "querystring": "^0.2.0"
+  }
+}
