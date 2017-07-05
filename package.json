@@ -17,7 +17,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:darai0512/easy-fetch.git#master"
+    "url": "git@github.com:darai0512/wrap-fetch.git#master"
   },
   "devDependencies": {
     "bluebird": "^3.5.0",
