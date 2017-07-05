@@ -1,7 +1,7 @@
 {
-  "name": "easy-fetch",
+  "name": "wrap-fetch",
   "version": "0.0.1",
-  "description": "fetch wrapper for some basical usecases",
+  "description": "fetch wrapper for some basical and isomorphic usecases",
   "browser": "index.js",
   "main": "index.js",
   "scripts": {

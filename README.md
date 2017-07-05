@@ -14,7 +14,7 @@ wraps node-fetch/whatwg-fetch(/isomorphic-fetch) with adding basic headers and m
 ```
 // require
 const nodeFetch = require('node-fetch');
-const fetch = require('easy-fetch').set(nodeFetch);
+const fetch = require('basical-fetch').set(nodeFetch);
 
 // get
 fetch.get.text('https://www.yahoo.co.jp').then(res => console.log(res));
